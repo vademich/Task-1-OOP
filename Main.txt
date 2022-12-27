@@ -1,0 +1,13 @@
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("1. Найти высоты треугольника");
+        TriangleN1 triangle = new TriangleN1();
+        triangle.a = 3;
+        triangle.b = 4;
+        triangle.c = 5;
+        System.out.println("a = " + triangle.a + ", b = " + triangle.b + ", c = " + triangle.c);
+        System.out.println("hc = " + triangle.heightA());
+        System.out.println("hb = " + triangle.heightB());
+        System.out.println("hc = " + triangle.heightC());
+    }
+}
